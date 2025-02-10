@@ -8,7 +8,7 @@ import AdminDashboard from './Pages/Dashboards/AdminDashboard/AdminDashboard';
 import UserDashboard from './Pages/Dashboards/UserDashBoard/UserDashboard';
 import Welcome from './Components/UserComponents/Welcome';
 import BorrowedItems from './Components/UserComponents/BorrowedItems';
-import ExploreLabs from './Components/UserComponents/ExploreLabs';
+// import ExploreLabs from './Components/UserComponents/ExploreLabs';
 import Operation from './Components/AdminComponents/Operation';
 import EquipmentChart from './Components/AdminComponents/EquipmentChart';
 import StudentsList from './Components/AdminComponents/GetStudents';
@@ -30,6 +30,8 @@ import ProtectedRoute from './AuthContext/ProtectedRoute';
 import { AuthProvider } from './AuthContext/AuthContext';
 import AllBorrowedItems from './Components/AdminComponents/AllBorrowedItems';
 import ItemList from './Components/UserComponents/Items';
+
+
 function App() {
   return (
     <Router>

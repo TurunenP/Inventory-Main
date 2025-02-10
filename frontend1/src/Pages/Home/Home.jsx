@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import img from '../../images/logimage.png';
 import Footer from '../../Components/Footer/Footer';
-import Navbar from '../../Components/Navbar/Navbar';
+// import Navbar from '../../Components/Navbar/Navbar';
+import Navbar from "../../Components/Navbar/Nav";
 
 export default function LandingPage() {
   return (
@@ -80,3 +81,4 @@ export default function LandingPage() {
     </div>
   );
 }
+
