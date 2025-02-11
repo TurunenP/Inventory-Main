@@ -82,7 +82,7 @@
 
 
 
-
+//Nav.jsx
 import { Link } from "react-router-dom";
 import logo from "../../images/image.png";
 
@@ -122,8 +122,8 @@ function NavbarComponent() {
 
       {/* Secondary Navbar */}
       {/* <nav className="bg-[#23408f] p-6 shadow-md mb-[1.5px] rounded-b-2xl rounded-br-2xl"> */}
-      <nav className="bg-[#23408f] p-6 shadow-md mb-[1.5px] rounded-b-2xl">
-        <div className="container mx-auto flex justify-end space-x-6 pr-6">
+      <nav className="bg-[#23408f] p-5 shadow-md mb-[1.5px] rounded-b-2xl">
+        <div className="container mx-auto flex justify-end space-x-6 pr-50">
           <Link to="/about" className="text-white text-xl hover:text-blue-200 ">
             About
           </Link>
